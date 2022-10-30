@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,70% 80%,0% 100%);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    margin-left: 19px;
+
+}
+
+#lg{
+    color: aquamarine;
+}
+
+.menu{
+    margin-bottom: 25px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.menu a:first-child{
+    border-bottom: 1px solid aquamarine;
+}
+
+.icons{
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    color: aquamarine;
+}
+
+.conai{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.lft
+{
+    flex-basis: 50%;
+
+}
+.rght{
+    flex-basis: 50%;
+    max-width: 400px;
+
+}
+.rght p{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: 1px solid lime;
+    background:lime;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+   
+}
+
+.btn:hover{
+    background-color: coral;
+    size: 30px;
+    transition: 1s;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+#abt{
+    padding: 100px 0px;
+}
+.about-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abt-lft-col{
+    flex-basis: 50%;
+    max-width: 400px;
+    margin: auto;
+
+}
+.abt-lft-col h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.abt-lft-col p{
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+.abt-lft-col h1 span{
+    color: lime;
+    font-size: 70px;
+    cursor: pointer;
+
+}
+.abt-lft-col h1 span:hover{
+    color: chocolate;
+    transition: all 1s;
+}
+.abt-rht-col{
+    flex-basis: 50%;
+    text-align: center;
+    
+
+}
+.abt-rht-col img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.bln{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    color: white;
+    background-color: lime;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+.bln a{
+    color: white;
+    text-decoration: none;
+}
+.bln a :hover{
+    background-color: chocolate;
+    transition: all 1s;
+    padding: 15px 25px;
+    color: lime;
+}
+.sign{
+    clip-path: polygon(0% 0%,100% 0%,100% 100%,70% 80%,0% 100%);
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background: rgba(0, 0, 0, 0.04);
+
+
+}
+.sign-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sign-lft-col{
+    flex-basis: 50%;
+    text-align: center;
+
+}
+.sign-lft-col img{
+    width: 60%;
+}
+.sign-rht-col{
+    flex-basis: 50%;
+
+}
+.sign-rht-col h1{
+    font-size: 70px;
+    
+}.sign-rht-col span{
+    color: lime;
+    font-display: 80px;
+}
+
+span:hover{
+    cursor: pointer;
+    color: chocolate;
+    transition: all 1s;
+}
+.sign-rht-col h2{
+    font-size: 50px;
+    letter-spacing: 20px;
+    color: darkgray;
+    margin: 10px 0px;
+}
+
+.ser{
+    padding: 50px 0px;
+
+}
+
+.ser-info{
+    text-align: center;
+
+}
+.ser-info h1{
+    font-size: 75px;
+}
+.ser-info p{
+    font-size: 40px;
+    font-weight: 800;
+    color: cornflowerblue;
+}
+.ser-row{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-rows: minmax(200px,auto);
+    grid-gap: 3em;
+    justify-content: center;
+}
+.ser-box{
+    box-shadow: 2px 3px 5px grey;
+    padding: 10px;
+    text-align: center;
+
+}
+.ser-box i{
+    background-color: lime;
+    color: white;
+    font-size: 25px;
+    
+    padding: 10px;
+}
+.ser-box h2{
+    font-size: 30px;
+    color: lime;
+    padding: 10px;
+}
+
+.members{
+    padding: 100px;
+    
+    /* background: url("/im/mem.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 35% , 35%;
+    background-position: top right;
+    
+}
+.members h1{
+    color: black;
+}
+
+.mem-name{
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+   
+   
+    
+}
+
+.mem-name p{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    color: darkgoldenrod;
+}
+
+.members .ad{
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.members .ad:hover{
+    background-color: chocolate;
+    color: lime;
+    width: 150px;
+    height: 40px;
+    transition: all .5s;
+}
+.members .ad a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin-top: 40px;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  
+  }
+  .footer-fit{
+      padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-fit h3{
+    font-size: 1rem;
+    font-weight: 1000;
+    line-height: 3rem;
+  }
+  .footer-fit p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 50px;
+    justify-content: center;
+    color: lime;
+  }
+  .social a{
+    text-decoration: none;
+    color: white;
+  }
+  .social a i{
+    font-size: 30px;
+  }
+  .social a i:hover{
+     color: lime;
+  }
+  
+  .footer-end{
+    background: #262626;
+    width: 100vw;
+    padding: 15px 0;
+    text-align: center;
+    font-size: larger;
+  }
+  .footer-end a{
+    color: white;
+    size: 20px;
+    margin-left: 50px;
+  }
+  a:hover{
+    color: #ff0040;
+  }
+  

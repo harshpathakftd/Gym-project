@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 200vh;
+    background: #000;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 50px;
+}
+h1::after{
+    content: '';
+    background-color: lime;
+    display: block;
+    height: 2px;
+    width: 280px;
+    margin: 20px auto;
+}
+.ser .icon{
+    font-size: 40px;
+    margin: 15px auto;
+    padding: 6px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid lime;
+    border-radius: 50%;
+    color: lime;
+}
+.ser p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    padding: 20px;
+}
+.ser span{
+    color: lime;
+    transition: .5s;
+}
+.ser .col-mid-3:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),#008000);
+    cursor: pointer;
+    color: yellow;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .5s;
+}
+.ser .col-mid-3:hover .icon{
+    color: white;
+    border-color: white;
+}
+
+.ser .col-mid-3{
+    margin: 90px auto;
+    width: 400px;
+}
